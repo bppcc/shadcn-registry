@@ -4,6 +4,19 @@
   "homepage": "https://acme.com",
   "items": [
     {
+      "name": "root-layout",
+      "type": "registry:component",
+      "title": "Root Layout",
+      "description": "",
+      "files": [
+        {
+          "path": "registry/new-york/root-layout/root-layout.tsx",
+          "type": "registry:block",
+          "target": "app/layout.tsx"
+        }
+      ]
+    },
+    {
       "name": "hello-world",
       "type": "registry:component",
       "title": "Hello World",
